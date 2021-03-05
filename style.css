@@ -3,7 +3,7 @@ body {
 }
 
 .przyciski {
-    background-color: #00aeffc7;
+    background-color: #00aeffa6;
     color: white;
     font-size: 20px;
     width: 450px;
@@ -32,7 +32,7 @@ body {
 }
 
 .lisek0{
-    background-image: url(./img/lisek1.jpg);
+    background-image: url(./img/Fenek1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -40,15 +40,21 @@ body {
 }
 
 .tekstfenek{
-    margin: 50px;
-    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 15px;
+    color: rgb(0, 0, 0);
     font-size: 17px;
+    background-color: #fa73fff8;
 }
 
 .galeriafenek{
     display: grid;
     grid-template-columns: auto auto auto;
-    margin: 40px;
+    padding: 40px;
+    background-color: #e2e460;
 }
 
 img{
@@ -77,7 +83,7 @@ img:hover {
 }
 
 .kotek0{
-    background-image: url(./img/kotek0.jpg);
+    background-image: url(./img/kotki.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -85,15 +91,21 @@ img:hover {
 }
 
 .tekstkotek{
-    margin: 50px;
-    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    background-color: #77ff41;
+    color: #000000;
     font-size: 17px;
 }
 
 .galeriakotek{
     display: grid;
     grid-template-columns: auto auto auto;
-    margin: 40px;
+    padding: 40px;
+    background-color: #ecb165;
 }
 
 .zdjeciakotka{
@@ -101,9 +113,32 @@ img:hover {
 }
 
 .aksolotl0{
-    background-image: url(./img/aksolotl0.jpg);
+    background-image: url(./img/aksolotl10.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 80vh;
+    height: 100vh;
 }
+
+.tekstaksolotl{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 25px;
+    background-color: palevioletred;
+    color: white;
+    font-size: 17px;
+}
+
+.zdjeciaaksolotl{
+    overflow: hidden;
+}
+
+.galeriaaksolotl{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 40px;
+    background-color: rgb(134, 0, 45);
+}
+
