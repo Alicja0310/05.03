@@ -1,0 +1,78 @@
+body {
+    background-color: rgb(59, 59, 65);
+}
+
+.przyciski {
+    background-color: #00aeffc7;
+    color: white;
+    font-size: 20px;
+    width: 450px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.nawigacja {
+    background-color: #00aeffc7;
+    height: 60px;
+    width: 100%;
+}
+
+.buton {
+    color: rgb(255, 255, 255);
+    width: 260px;
+    height: 60px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#menu {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.lisek0{
+    background-image: url(./img/lisek1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+}
+
+.tekstfenek{
+    margin: 40px;
+    color: white;
+    font-size: 17px;
+}
+
+.galeriafenek{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 40px;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+img:hover {
+    animation-name: przyblizanie;
+    animation-duration: 2000ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes przyblizanie {
+    from {
+        height: 100%;
+        width: 100%;
+    }
+    to {
+        transform: scale(1.3);
+    }
+}
+
+.zdjeciafenka{
+    overflow: hidden;
+}
+
